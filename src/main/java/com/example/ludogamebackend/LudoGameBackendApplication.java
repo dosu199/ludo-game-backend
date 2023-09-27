@@ -17,7 +17,7 @@ public class LudoGameBackendApplication {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/game").allowedOrigins("http://localhost:3000");
+                registry.addMapping("/rollDice").allowedOrigins("http://localhost:3000");
             }
         };
     }
